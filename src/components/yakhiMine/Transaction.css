@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mainTitle {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6A1C2B;
+    margin-bottom: 25px;
+}
+
+.list {
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.num {
+    background-color: #6A1C2B;
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    clear: both;
+    transition: 0.5s;
+}
+
+.leftUnder {
+    height: 100%;
+}
+
+.underRight{
+    height: 100%;
+}
+
+.underNum{
+    background-color: #fafafa;
+    margin: 0 auto!important;
+    width: 80%;
+    transition: 0.5s;
+    max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms, max-height 0.15s ease-in-out;
+}
+
+.underTextBold{
+    padding-left: 50px;
+    padding-top: 35px;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.underTextBold2{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-weight: 500;
+    max-width: 500px;
+    word-wrap:break-word;
+}
+
+.underTextSmall {
+    font-weight: 100;
+}
+
+.underTextSmall {
+    max-width: 500px;
+}
+
+.underTextRight {
+    padding-top: 15%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.num:hover {
+    background-color: #521622;
+}
+
+.num:hover .innerNumber{
+    color: #C8C8C8;
+}
+
+.num:hover + .underNum {
+    max-height: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms, max-height 0.15s ease-in-out;
+}
+
+.underNum:hover{
+    max-height: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.innerNumber{
+    font-size: 30px;
+    padding-top: 1.75rem;
+    padding-left: 2rem;
+    padding-right: 10px;
+    float: left;
+    font-weight: 400;
+    color: #f4f4f4;
+}
+
+.title {
+    font-weight: 200;
+    padding: 2.25rem;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,158 @@
+.parentOfAll{
+    position: relative;
+    width: 100%;
+    background-color: #E2BD78;
+}
+
+.allGroups{
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
+
+.allGroups img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.tokenNumber {
+  width:100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 0;
+  border-bottom: 2px solid #6A1C2B;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  vertical-align: middle;
+}
+
+.tokenNumber::placeholder {
+  color: rgba(200, 200, 200, 1);
+  font-size: 1vw;
+}
+
+.tokenNumber:focus::placeholder {
+  color: transparent;
+}
+
+.tokenNumber:focus {
+  outline: none;
+  border-bottom: 2px solid #A42C43;
+}
+
+.nextButton {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+}
+
+.BCBottom {
+  animation: MoveUpDownBCBottom 4s linear infinite;  
+}
+
+@keyframes MoveUpDownBCBottom {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.BCLeft {
+  animation: MoveUpDownBCLeft 3s linear infinite;  
+}
+
+@keyframes MoveUpDownBCLeft {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.BCRight {
+  animation: MoveUpDownBCRight 2.5s linear infinite;  
+}
+
+@keyframes MoveUpDownBCRight {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.Headset {
+  animation: MoveUpDownHeadset 3.5s linear infinite;  
+}
+
+@keyframes MoveUpDownHeadset {
+    0%, 100% {
+    transform: translateY(550px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.Green {
+  animation: MoveUpDownGreen 3s linear infinite;  
+}
+
+@keyframes MoveUpDownGreen {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.Bulb {
+  animation: MoveUpDownBulb 4s linear infinite;  
+}
+
+@keyframes MoveUpDownBulb {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.Bag {
+  animation: MoveUpDownBCLeft 3s linear infinite;  
+}
+
+@keyframes MoveUpDownBCLeft {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(450px);
+  }
+}
+
+.Book {
+  animation: MoveUpDownBook 3s linear infinite;  
+}
+
+@keyframes MoveUpDownBook {
+    0%, 100% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(400px);
+  }
+}

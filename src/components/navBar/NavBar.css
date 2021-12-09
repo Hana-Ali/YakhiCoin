@@ -1,0 +1,64 @@
+.container-fluid{
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  height: 6rem;
+  align-items: center;
+  padding: 0 1.5 rem;
+  transition: background-color .5s ease;
+  z-index: 9999;
+  border-bottom: 2px solid rgba(255,255,255,.05);
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  background-color: transparent;
+}
+
+.scrolled{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+.hamText{
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  margin-top: 70px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+.hamTextGray {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  margin-top: 70px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F9F9FB;
+}
+
+.hamText:hover{
+  color: rgb(24, 23, 23);
+}
+
+.hamList{
+  display: flex;
+  width: 60%;
+  padding: 0 1.1em;
+  margin-bottom: 10px;
+  margin: 2rem;
+  background-color: #fff;
+}
+
+.hamListGray{
+  display: flex;
+  width: 60%;
+  padding: 0 1.1em;
+  margin-bottom: 10px;
+  margin: 2rem;
+  background-color: #F9F9FB;
+}

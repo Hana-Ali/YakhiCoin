@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.innerContainer{
+    font-family: 'Roboto', sans-serif;
+}
+
+.innerTitle {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.keysText{
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #6A1C2B;
+    word-wrap:break-word;
+    max-width: 600px;
+}
+
+.submitLink {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tokenNumber {
+    width: 80%;
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 2px solid #6A1C2B;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    vertical-align: middle;
+}
+
+.tokenNumber::placeholder {
+    color: rgba(200, 200, 200, 1);
+    font-size: 1vw;
+}
+
+.tokenNumber:focus::placeholder {
+    color: transparent;
+}
+
+.tokenNumber:focus {
+    outline: none;
+    border-bottom: 2px solid #A42C43;
+}

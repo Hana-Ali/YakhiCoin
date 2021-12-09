@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.CardContainer {
+    position: relative;
+    width: 500px;
+    height: 1000px;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 2px 7px 1px rgba(31, 31, 31, 0.2);
+    background-color: white;
+    margin: 50px;
+    font-family: Roboto;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 40px;
+}
+.face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.face.faceInner {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.BlockName {
+    text-align: left;
+    margin: 2px 25px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.separator {
+    width: 405px;
+    margin: 15px 25px;
+    color: #6A1C2B;
+}
+
+.h2Span {
+    font-size: 10px;
+    color: rgb(167, 166, 166);
+    letter-spacing: 0px;
+}
+
+.previousHashTitle {
+    text-align: left;
+    margin: 10px 25px;
+    padding: 0;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.previousHash {
+    font-size: 10.5px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5px;
+    color: #6A1C2B;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.currentHashTitle {
+    text-align: left;
+    margin: 10px 25px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.currentHash {
+    font-size: 10.5px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #6A1C2B;
+    color: #6A1C2B;
+    background-color: #faecef;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.midHash {
+    font-size: 10.5px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(167, 166, 166);
+    word-wrap:break-word;
+    max-width: 420px;
+}
+
+.face.faceOuter {
+    justify-content: center;
+    height: 100px;
+}
+
+.h2Outer {
+    opacity: 0.5;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.CardContainer:hover {
+    box-shadow: 1px 1px 20px 1px rgba(31, 31, 31, 0.2);
+}
